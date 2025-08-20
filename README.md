@@ -4,6 +4,6 @@ Todo o conteúdo disponível nele é de livre utilização, e contribuições, s
 Para acessar os conteúdos desse repositório, veja a seção abaixo.
 
 ### Seções desse repositório:
-* [Módulos de conteúdo]
+* [Módulos de conteúdo](https://github.com/Neblinus/BioPython/tree/main/M%C3%B3dulos%20de%20Conte%C3%BAdo)
 * [Exercícios de programação]
 * [Guias de instalação e configuração]
