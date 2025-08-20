@@ -42,7 +42,8 @@ Em nosso arquivo, atualmente desprovido de conteúdo, digitaremos o seguinte:<br
 print("Olá, mundo!")
 ```
 <br>**Note duas coisas:**
-* A linha iniciada em # recebe a cor acinzentada para demonstrar seu caráter 'secundário' (_por enquanto_):
+* A linha iniciada em # recebe a cor acinzentada para demonstrar que não faz parte do código:
+  > Qualquer linha iniciada em `#` (ou qualquer texto após `#`), em Python, define um _**comentário**_.<br>
   > **Comentários são ignorados** pelo interpretador, ou seja, do início de um comentário (marcado pelo `#`) até o fim daquela linha, tudo é desconsiderado.<br>
   > Veremos mais sobre comentários, sua importância na documentação de software e as melhores práticas associadas a eles futuramente.
 * A palavra `print` e a frase `"Olá, mundo!"` recebem cores diferenciadas:
@@ -87,17 +88,38 @@ O fato de `print` ser uma keyword nos leva à última adição de informação d
 
 ### Variáveis
 Apesar de abordar mais clara e amplamente cada um dos tópicos abordados aqui em lições futuras, vale a pena olhar brevemente para as variáveis.<br>
-E _não_, ao leitor curioso: não há nenhuma variável nesse programa.<br><br>
+E _não_, ao leitor curioso: não há nenhuma variável nesse arquivo.<br><br>
 Variáveis são, primariamente, modos de _identificar_ um 'instrumento' que armazena dados ou é uma referência a determinados dados.<br>
-Nesse programa, apesar de não haver variáveis, temos um _literal_: `"Olá, mundo!"`, um valor não associado a variáveis ou constantes, como um 'valor
+Nesse arquivo, apesar de não haver variáveis, temos um _literal_: `"Olá, mundo!"`, um valor não associado a variáveis ou constantes, como um 'valor
 avulso', solto. Se uma variável identifica um instrumento que pode armazenar dados, o literal é constituído apenas pelos dados.
 
-## A lista de passos
-Mas, e quanto à lista de passos?<br>
-Atualmente, nossa lista está assim:
+## A peça que faltava
+Após ser bombardeado com informações, você pode estar se perguntando:
+> 'Não vamos fazer nada com o código?'
+
+O fato é que nosso pequeno arquivo de código Python não serve apenas como nosso objeto de estudo: ele é um programa completo.<br><br>
+Assim sendo, vamos executá-lo.<br>
+Se você estiver usando a IDE VSCode ou qualquer editor de código com suporte à linguagem Python, é provável que haja um botão 'Executar' (_Run_),
+que quando clicado, com o arquivo aberto, irá executar seu código.
+> [!NOTE]
+> Se você não estiver conseguindo executar o programa, acesse o guia de configuração do ambiente de desenvolvimento e certifique-se de que seguiu
+> todas as instruções de modo correto.<br>
+> Se ainda assim tiver problemas, verifique a [seção de dúvidas](https://github.com/Neblinus/BioPython/discussions/categories/q-a-perguntas-e-respostas)
+> da comunidade por questões pertinentes ao seu problema: é provável que alguém já tenha enfrentado esse problema e sido ajudado por um membro do repositório.
+> <br>Se não houver nenhum tópico semelhante, crie uma questão.
+
+Se tudo der certo, você deve ver a frase `Olá, mundo!` exibida na sua tela.<br>
+
+### Mas e a lista de passos?
+Até a execução do nosso programa, só havíamos completado o primeiro passo da lista.<br>
+Agora, ela está assim:
 - [x] Criamos um _arquivo de código Python_, com operações adequadas à sintaxe da linguagem.
-- [ ] Passamos o arquivo de código que criamos para o _intepretador Python_.
-- [ ] O interpretador percorre o arquivo de código de cima para baixo, da esquerda para a direita.
-- [ ] Ele 'traduz' sob demanda o código no arquivo para uma 'linguagem-pai', ou código binário (a depender do interpretador).
-- [ ] O código é executado, e ao chegar ao fim, o programa é encerrado, e os recursos utilizados por ele são disponibilizados novamente para o sistema
+- [x] Passamos o arquivo de código que criamos para o _intepretador Python_.
+- [x] O interpretador percorre o arquivo de código de cima para baixo, da esquerda para a direita.
+- [x] Ele 'traduz' sob demanda o código no arquivo para uma 'linguagem-pai', ou código binário (a depender do interpretador).
+- [x] O código é executado, e ao chegar ao fim, o programa é encerrado, e os recursos utilizados por ele são disponibilizados novamente para o sistema
    operacional.
+
+Como isso ocorreu e as minúcias dessas etapas são dúvidas a serem sanadas no decorrer das aulas desse repositório.<br><br>
+Por agora, dê-se por satisfeito:<br>
+Você acaba de executar seu primeiro programa em Python.
