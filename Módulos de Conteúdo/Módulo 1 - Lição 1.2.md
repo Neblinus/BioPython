@@ -114,7 +114,7 @@ de variáveis.
 
 * Expressões são trechos de código que _retornam um valor_.
   Em Python, por exemplo, `5 + 3` retorna o valor `8`.
-* Um _statement_ é uma linha de código que performa uma ação ou um (ou mais) 'comandos' (tais como execução de funções)
+* Um _statement_ é uma linha de código que performa uma ação ou um (ou mais) 'comandos' (tais como execução de funções) 
 
 
 ### Alterando com literais, literalmente
