@@ -1,4 +1,4 @@
-# Módulo 1 - Lição 1.2 - Literais, Tipos de Dados e Variáveis
+# Módulo 1 - Lição 1.2 - Literais, Tipos de Dados, Variáveis
 Na última lição, tivemos um breve primeiro contato com a linguagem _Python_, explorando superficialmente alguns detalhes
 sobre ela.
 
@@ -61,6 +61,61 @@ Sim, eles são. Mas para explorar essa diferença, teremos primeiro que explorar
 As _variáveis_.
 
 ## Variáveis
+Até agora, só vimos literais em ação.<br>
+Para entender o que são variáveis, analise o código abaixo comigo (que, propositalmente, contém um erro).<br>
+Não se preocupe em entender o que é `input` agora, apenas siga o fluxo comigo:
+
+```python
+# Arquivo: bom_dia_usuario.py
+input("Qual o seu nome? ")
+print("Bom dia, nome!!")
+```
+
+Nesse código-fonte, embora vocês ainda não tenham aprendido, temos uma função `input` que, ao ser executada, vai exibir o literal<br>
+`"Qual o seu nome? "` no console e aguardar por uma entrada de caracteres, aceita quando o usuário apertar a tecla _Enter_.
+
+Quando o usuário pressionar _Enter_, a função aceitará a entrada de caracteres dele, para que então possamos imprimir seu nome no
+`print`.
+
+_Exceto_ pelo fato de que o programa **_não_** imprime o nome do usuário.
+
+---
+
+### Nomes e denominações
+Tente executar o programa acima, caso esteja curioso.<br>
+Você se deparará com a seguinte saída no console:
+
+```
+>>> Qual o seu nome? <Carlos>
+>>> Bom dia, nome!!
+```
+
+> [!NOTE]
+> Aqui estarei usando como convenção:<br>
+> * O símbolo `>>>` para indicar uma saída de caracteres do console.
+> * Os símbolos `<` e `>` ao redor de texto insierido no console por alguém.
+
+Perfeito, não?<br>
+_Porquê isso acontece?_, você deve estar se perguntando...
+
+Por duas razões, mas vamos à primeira:<br>
+`"Bom dia, nome!!"` é um literal, ou seja, um valor diretamente inserido no código-fonte - `nome` não representa o nome do usuário,
+é apenas uma parte do literal que inserimos no código.
+
+Já a segunda requer mais conhecimento para ser notada...
+Onde o _Carlos_ foi parar?<br>
+Ele foi aceito pela função `input`, então, onde ele está?
+
+---
+
+### Onde entram as expressões
+Expressões e _statements_ são tópicos que quero abordar futuramente, mas cujo entendimento superficial auxiliará a compreensão
+de variáveis.
+
+* Expressões são trechos de código que _retornam um valor_.
+  Em Python, por exemplo, `5 + 3` retorna o valor `8`.
+* Um _statement_ é uma linha de código que performa uma ação ou um (ou mais) 'comandos' (tais como execução de funções)
+
 
 ### Alterando com literais, literalmente
 Sabemos teoricamente o que é um literal, então, que tal abranger mais esse conceito e explorar suas implicações na prática?<br>
